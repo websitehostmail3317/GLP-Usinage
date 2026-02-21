@@ -18,6 +18,8 @@ body {
 .banner {
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Spreads the 3 groups out */
+    padding: 0 20px;
     width: 100%;
     min-height: 60px;
     background-color: lightgray;
@@ -30,11 +32,9 @@ body {
 
 /* #2, #3, #4 - Stay grouped. No special CSS needed if they follow #1 */
 .top-bar {
+    padding: 0 15px;
     display: flex;
-    align-items: center;
-    width: 100%;
-    min-height: 60px;
-    background-color: lightgray;
+    gap: 15px; 
 }
 
 /* #5 - Pushes everything to the left of it */
