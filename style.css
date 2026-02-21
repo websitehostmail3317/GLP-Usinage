@@ -3,7 +3,7 @@ a {
 }
 
 .banner {
-    column: 4;
+    align-items: center;
     display: block;
     width: 100%;
 }
