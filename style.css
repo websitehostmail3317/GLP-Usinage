@@ -8,6 +8,7 @@ a {
     border-style: solid;
     display: flex;
     flex-direction: row;
+    place-items: center;
     position: sticky; top: 0;
     width: 100%;
 }
