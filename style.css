@@ -4,6 +4,8 @@ a {
 
 .banner {
     align-items: center;
+    border-color: darkblue;
+    border-style: solid;
     display: flex;
     position: sticky; top: 0;
     width: 100%;
