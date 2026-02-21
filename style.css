@@ -10,15 +10,17 @@ a:hover {
 
 .banner {
     align-items: center;
+    background-color: lightgray;
     border-color: darkblue;
     border-style: solid;
     column-gap: 1%;
     display: flex;
-    flex-basis: auto;
-    flex-direction: column;
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     place-items: center;
-    position: sticky; top: 0;
+    position: sticky; left: 0; right: 0; top: 01px;
     width: 100%;
 }
 
