@@ -8,20 +8,21 @@ a:hover {
     color: darkblue;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .banner {
-    align-items: center;
-    background-color: lightgray;
-    border-color: darkblue;
-    border-style: solid;
-    column-gap: 0px;
     display: flex;
-    flex-grow: 1; 
-    flex-shrink: 1; 
-    flex-wrap: nowrap;
-    gap: 01px;
-    justify-content: space-evenly;
-    place-items: center;
+    align-items: center;
+    justify-content: center; /* Try 'center' first to see if it aligns */
+    
+    background-color: lightgray;
+    border: 2px solid darkblue; /* Shorthand is cleaner */
+    
     width: 100%;
+    min-height: 60px;
 }
 
 .main-logo {
