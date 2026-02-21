@@ -7,6 +7,7 @@ a {
     border-color: darkblue;
     border-style: solid;
     display: flex;
+    flex-direction: row;
     position: sticky; top: 0;
     width: 100%;
 }
