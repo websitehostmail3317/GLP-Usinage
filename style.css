@@ -13,12 +13,15 @@ a:hover {
     background-color: lightgray;
     border-color: darkblue;
     border-style: solid;
-    column-gap: 1%;
+    column-gap: 0px;
     display: flex;
     flex-grow: 1; 
     flex-shrink: 1; 
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    margin-left: 01px;
+    margin-right: 01px;
+    margin-top: 01px;
     place-items: center;
     position: sticky; left: 0; right: 01px; top: 01px;
     width: 100%;
