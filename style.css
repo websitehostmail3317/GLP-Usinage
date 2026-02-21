@@ -9,55 +9,12 @@ a:hover {
 }
 
 body {
-    margin-left: 01px; 
-    margin-right: 01px; 
-    margin-top: 01px;
-    padding: 01px;
-}
-
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Try 'center' first to see if it aligns */
-    
-    background-color: lightgray;
-    border: 2px solid darkblue; /* Shorthand is cleaner */
-    
-    width: 100%;
-    min-height: 60px;
-}
-
-.main-logo {
-
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: darkblue;
-}
-
-body {
     margin-left: 0.1%; 
     margin-right: 0.3%; 
     margin-top: 0.1%;
+    padding: 0.1%;
 }
 
-.banner {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    min-height: 60px;
-    background-color: lightgray;
-}
-
-.main-logo {
-
-}
 .banner {
     display: flex;
     align-items: center;
@@ -72,11 +29,15 @@ body {
 }
 
 /* #2, #3, #4 - Stay grouped. No special CSS needed if they follow #1 */
-.nav-item {
-    padding: 0 15px;
+.top-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 60px;
+    background-color: lightgray;
 }
 
 /* #5 - Pushes everything to the left of it */
-.dropdown {
+.menu {
     margin-left: auto;
 }
