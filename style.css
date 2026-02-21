@@ -4,7 +4,7 @@ a {
 
 .banner {
     align-items: center;
-    display: block;
+    display: flex;
     position: sticky; top: 0;
     width: 100%;
 }
