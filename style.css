@@ -20,7 +20,7 @@ a:hover {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     place-items: center;
-    position: sticky; left: 0; right: 0; top: 01px;
+    position: sticky; left: 0; right: 01px; top: 01px;
     width: 100%;
 }
 
