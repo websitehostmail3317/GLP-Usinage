@@ -16,6 +16,7 @@ a:hover {
     display: flex;
     flex-basis: auto;
     flex-direction: column;
+    justify-content: space-evenly;
     place-items: center;
     position: sticky; top: 0;
     width: 100%;
